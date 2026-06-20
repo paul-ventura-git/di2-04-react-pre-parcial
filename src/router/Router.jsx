@@ -3,6 +3,7 @@ import Login from '../pages/Login'
 import Layout from '../components/Layout'
 import Home from '../pages/Home'
 import About from '../pages/About'
+import Gallery from '../pages/Gallery'
 import Contact from '../pages/Contact'
 import Customers from '../pages/Customers'
 import Products from '../pages/Products'
@@ -17,6 +18,7 @@ export default function Router() {
                 <Route path="/" element={<Layout />}>
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
+                    <Route path="/gallery" element={<Gallery />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/customers" element={<Customers />} />
                     <Route path="/products" element={<Products />} />                    
